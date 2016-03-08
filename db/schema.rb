@@ -106,7 +106,6 @@ ActiveRecord::Schema.define(version: 20151201115525) do
     t.string   "confirmation_token",     limit: 255
     t.datetime "confirmed_at"
     t.datetime "confirmation_sent_at"
-    t.string   "unconfirmed_email",      limit: 255
     t.datetime "created_at",                                      null: false
     t.datetime "updated_at",                                      null: false
     t.integer  "role",                   limit: 4,   default: 0
